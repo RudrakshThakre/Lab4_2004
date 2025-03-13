@@ -16,7 +16,7 @@ def home():
 def predict():
     try:
         # Get input data from form
-        data = [float(request.form[key]) for key in ["Length1", "Length2", "Length3", "Height", "Width"]]
+        data = [float(request.form[key]) for key in ["Length1", "Length2", "Length3", "Height", "Width", "Weight"]]
 
         # Preprocess input
         data = scaler.transform([data])
