@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Fish Species Predictor</title>
@@ -5,11 +6,12 @@
 <body>
     <h2>Enter Fish Details</h2>
     <form action="/predict" method="post">
-        Length1: <input type="text" name="Length1"><br>
-        Length2: <input type="text" name="Length2"><br>
-        Length3: <input type="text" name="Length3"><br>
-        Height: <input type="text" name="Height"><br>
-        Width: <input type="text" name="Width"><br>
+        Weight: <input type="text" name="Weight" required><br>
+        Length1: <input type="text" name="Length1" required><br>
+        Length2: <input type="text" name="Length2" required><br>
+        Length3: <input type="text" name="Length3" required><br>
+        Height: <input type="text" name="Height" required><br>
+        Width: <input type="text" name="Width" required><br>
         <input type="submit" value="Predict">
     </form>
 </body>
